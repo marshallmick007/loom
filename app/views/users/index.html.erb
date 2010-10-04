@@ -1,0 +1,27 @@
+<h1>Listing users</h1>
+
+<table>
+	<tr>
+	    <th>Id</th>
+	    <th>Name</th>
+	    <th>Status</th>
+	    <th></th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+	<td><%=h user.id %></td>
+	<td><%=h user.username %></td>
+	<td><%=h user.status %></td>
+    <td><%= link_to 'Show', :action => "show", :id => user.username %></td>
+    <td><%= link_to 'Edit', edit_user_path(user.username) %></td>
+    <td><%= link_to 'Destroy', :id => user.username, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New user', :action=> "new" %>

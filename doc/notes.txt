@@ -1,0 +1,23 @@
+Tutorial
+
+http://railstutorial.org/chapters/beginning?version=2.3#top
+
+http://guides.rubyonrails.org/v2.3.8/index.html
+
+Rails 2.3 release notes
+http://guides.rubyonrails.org/2_3_release_notes.html
+
+Password Hashing:
+
+http://www.zacharyfox.com/blog/ruby-on-rails/password-hashing
+
+Migrations
+
+http://guides.rubyonrails.org/migrations.html
+
+
+
+Weave API
+
+https://wiki.mozilla.org/Labs/Weave/User/1.0/API
+https://wiki.mozilla.org/Labs/Weave/Sync/1.0/API
